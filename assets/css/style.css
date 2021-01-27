@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Hero Image and Overlay Styles */
 
 .home-container {
