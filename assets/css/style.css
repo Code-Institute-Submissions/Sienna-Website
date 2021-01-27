@@ -81,9 +81,69 @@
     margin: 0;
     box-sizing: content-box;
     width: 69px;
-    mix-blend-mode: exclusion;
     bottom: 7%;
     z-index: 6;
 }
 
 /* END Heading Styles */
+
+/* Nav Styling */
+
+.navbar {
+    height: 40px;
+    padding: 30px;
+}
+
+.navbar a {
+    text-align: right;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 32px;
+    font-family: abril-fatface,sans-serif;
+    letter-spacing: 0.05em;
+    padding: 0%;
+}
+
+.nav-link {
+    color: white;
+    font-family: aileron, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.btn {
+    font-family: abril-fatface,sans-serif;
+    font-size: 19px;
+    color: white;
+    font-style: italic;
+}
+
+.btn:hover {
+    color: #efa484;
+}
+
+.dropdown {
+    border: none !important;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+    text-align: right;
+}
+
+.dropdown-item {
+    color: rgb(224, 224, 224);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.dropdown-item:hover {
+    color: #efa484;
+    background-color: transparent;
+    border: none;
+}
+/* END Nav Styling */
