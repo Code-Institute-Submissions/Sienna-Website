@@ -147,3 +147,37 @@
     border: none;
 }
 /* END Nav Styling */
+
+/* About Page */
+/* END About Page */
+
+/* Project Containers */
+.project-container {
+    height: auto !important;
+    width: 100vw;
+    color: black;
+    padding: 90px 90px 0 90px;
+}
+
+.project-header {
+    text-align: center;
+}
+/* END Project Containers */
+
+/* Img Galleries */
+#project-one-photos {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-count: 3;
+    -moz-column-gap: 40px;
+    column-count: 3;
+    column-gap: 40px;
+}
+
+#project-one-photos img {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 40px;
+}
+/* END Img Galleries */
+
