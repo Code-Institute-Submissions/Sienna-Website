@@ -1,4 +1,6 @@
 
+/* Hero Image and Overlay Styles */
+
 .home-container {
     height: 100vh;
     background: url('../img/pages/hero-image.jpg');
@@ -19,6 +21,10 @@
     width: 100%;
     background-color: rgba(20, 20, 20, 0.432);
 }
+
+/* END Hero Image and Overlay Styles */
+
+/* Heading Styles */
 
 .main-heading {
     position: absolute;
@@ -79,3 +85,5 @@
     bottom: 7%;
     z-index: 6;
 }
+
+/* END Heading Styles */
