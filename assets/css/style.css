@@ -253,6 +253,31 @@ html {
 }
 /* END Text on project pages */
 
+/*Contact Form*/
+.contact-container {
+    height: 100vh;
+    background: url('../img/pages/contact-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    z-index: 1;
+}
+
+.opaque-overlay-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(20, 20, 20, 0.411);
+    z-index: 2;
+}
+/*END Contact Form*/
+
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
