@@ -4,7 +4,6 @@ html {
 }
 
 /* Hero Image and Overlay Styles */
-
 .home-container {
     height: 100vh;
     background: url('../img/pages/hero-image.jpg');
@@ -25,11 +24,9 @@ html {
     width: 100%;
     background-color: rgba(20, 20, 20, 0.432);
 }
-
 /* END Hero Image and Overlay Styles */
 
 /* Heading Styles */
-
 .main-heading {
     position: absolute;
     bottom: 18%;
@@ -89,11 +86,9 @@ html {
     bottom: 3%;
     z-index: 6;
 }
-
 /* END Heading Styles */
 
 /* Nav Styling */
-
 .navbar {
     height: 40px;
     padding: 30px;
@@ -154,6 +149,12 @@ html {
 /* END Nav Styling */
 
 /* About Page */
+.about-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #efa484;
+    padding: 90px;
+}
 /* END About Page */
 
 /* Project Containers */
