@@ -290,6 +290,14 @@ html {
         height: 26px;
     }
 
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+    }
+
     
 }
 /* END Media Queries */
