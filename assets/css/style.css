@@ -155,6 +155,18 @@ html {
     background-color: #efa484;
     padding: 90px;
 }
+
+.text-block p {
+    position: relative;
+    text-align: justify;
+    font-family: aileron, sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    color: white;
+    top: 30%;
+    width: 25%;
+    float: right;
+}
 /* END About Page */
 
 /* Project Containers */
