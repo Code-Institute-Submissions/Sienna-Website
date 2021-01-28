@@ -69,6 +69,7 @@ html {
     margin: 0;
     box-sizing: content-box;
     width: 69px;
+    top: 120px;
     z-index: 6;
 }
 
@@ -85,7 +86,7 @@ html {
     margin: 0;
     box-sizing: content-box;
     width: 69px;
-    top: 290px;
+    top: 420px;
     z-index: 6;
 }
 
@@ -238,4 +239,22 @@ html {
     background-color: #efa484;
 }
 /* END Text on project pages */
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+    .sub-heading {
+        bottom: 9%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+/* END Media Queries */
 
