@@ -33,3 +33,32 @@ The owner of the site still has to complete some of the projects that need to be
 3. as the owner, I want the site to make it easy for potential clients reach me through the site.
 
 ---
+
+## Skeleton
+
+### Section 1 - Hero Image/Homepage 
+- Navigation bar located at the top of the page overlayed onto the hero image of the owners choice. The navigation bar will collapse to a hamburger icon on smaller screens.
+- Creative typography in the form of sideways text in a fixed postiion to the left and right of the page
+all the way down the site. As well as it being a design idea it also informs the user what the site is about.
+- A main heading which is Sienna's full name with a subheading to make it even clearer to the user what 
+the site is about.
+
+### Section 2 - About Page
+- Page includes a self portrait image and text block with about info.
+- On full width version to the left and right of one another and on the smaller media screens on top of one another.
+
+
+### Section 3 to 5 - Project Pages
+- Pages include h2 heading with the project title and a descriptions about each project.
+- Pages inlude the photographs taken during each project in a simple, resposive image gallery.
+- Each project page will have a navigation bar at the bottom for the navigation between each section.
+
+### Section 6 - Shot on iPhone page
+- Page includes h2 heading
+- Page will also have a responsive image gallery but with a smaller amout of collumns than the projects section.
+- This page also includes the bottom navigation bar. 
+
+### Section 7 - Contact Page/Form
+- Page includes a contact form asking for user name, number, email and the message they would like to send. 
+- Social media links 
+- Sienna's contact details.
