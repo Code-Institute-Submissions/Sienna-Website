@@ -183,7 +183,7 @@ html {
 /* END Project Containers */
 
 /* Img Galleries */
-#project-one-photos, #project-two-photos {
+#project-one-photos, #project-two-photos, #project-three-photos {
     -webkit-column-count: 3;
     -webkit-column-gap: 40px;
     -moz-column-count: 3;
@@ -192,7 +192,7 @@ html {
     column-gap: 40px;
 }
 
-#project-one-photos img, #project-two-photos img {
+#project-one-photos img, #project-two-photos img, #project-three-photos img {
     width: 100% !important;
     height: auto !important;
     padding-top: 40px;
