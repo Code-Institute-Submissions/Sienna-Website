@@ -253,6 +253,30 @@ html {
 }
 /* END Text on project pages */
 
+/* iPhone Page */
+#iphone-photos {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 55px;
+    -moz-column-count: 2;
+    -moz-column-gap: 55px;
+    column-count: 2;
+    column-gap: 55px;
+}
+
+#iphone-page img {
+    width: 100% !important;
+    height: auto !important;
+    padding-top: 40px;
+}
+
+.iphone-container {
+    height: auto !important;
+    width: 100vw;
+    color: black;
+    padding: 90px 90px 0px 90px;
+}
+/* END iPhone Page */
+
 /*Contact Form*/
 .contact-container {
     height: 100vh;
