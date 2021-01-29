@@ -300,6 +300,9 @@ html {
     background-color: rgba(20, 20, 20, 0.411);
     z-index: 2;
 }
+
+
+
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
 button {
@@ -466,6 +469,42 @@ textarea {
 /* I took some of the css to style my own contact page from this design */ 
 /*END Contact Form*/
 
+/* Bottom Navs */
+.bottom-nav {
+    padding: 50px 20px 20px 20px;
+}
+
+.nav-l-2 {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    color: white;
+    font-family: aileron, sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.nav-l-2:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-l {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    color: #EFA484;
+    font-family: aileron, sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.nav-l:hover {
+    color: black;
+    text-decoration: none;
+}
+/* End Bottom Navs */
+
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
@@ -523,8 +562,6 @@ textarea {
     .nav-link {
         font-size: 15px;
     }
-
-    
 }
 /* END Media Queries */
 
