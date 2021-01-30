@@ -537,6 +537,29 @@ textarea {
         right: -7px;
     }
 
+    #project-one-photos, #project-two-photos, #project-three-photos {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    .project-container {
+        padding: 45px 45px 0 45px;
+    }
+
+    .about-container {
+        padding: 45px 45px 0 45px;
+    }
+
+    .iphone-container {
+        padding: 45px 45px 0 45px;
+    }
+
+    .text-block p {
+        font-size: 13px;
+        width: 291px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
