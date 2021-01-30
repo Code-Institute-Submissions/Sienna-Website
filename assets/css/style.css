@@ -708,6 +708,12 @@ textarea {
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em;
   }
+
+  #contact-page {
+      height: 100vh;
+      margin: 0;
+  }
+  
 }
 /* END Media Queries */
 
