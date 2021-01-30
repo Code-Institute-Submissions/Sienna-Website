@@ -68,7 +68,7 @@ html {
     width: 69px;
     top: 80px;
     mix-blend-mode: exclusion;
-    z-index: 5;
+    z-index: 4;
 }
 
 .right-heading {
@@ -86,7 +86,7 @@ html {
     width: 69px;
     bottom: 3%;
     mix-blend-mode: exclusion;
-    z-index: 5;
+    z-index: 4;
 }
 /* END Heading Styles */
 
@@ -303,7 +303,6 @@ img {
     z-index: 6;
     overflow: auto;
 }
-
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
 button {	
@@ -655,7 +654,7 @@ textarea {
     }
 
     .text-block p {
-        font-size: 11px;
+        font-size: 13px;
         width: 100%;
         text-align: justify;
         letter-spacing: 0;
@@ -683,21 +682,21 @@ textarea {
     }
 
     h1 {
-    font-size: 26px;
-  }
+        font-size: 26px;
+    }
   
-  .underline {
-    width: 68px;
-  }
+    .underline {
+        width: 68px;
+    }
   
-  #form_button {
-    padding: 15px 25px;
-  }
+    #form_button {
+        padding: 15px 25px;
+    }
 }
 
 @media screen and (max-width: 420px) {
   h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   
