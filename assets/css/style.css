@@ -204,6 +204,12 @@ img {
 /* END Img Galleries */
 
 /* Text on project pages */
+.project-text-iphone h2 {
+    font-family: abril-fatface, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
 .project-text h2 {
     font-family: abril-fatface, sans-serif;
     font-size: 50px;
@@ -499,6 +505,10 @@ textarea {
     color: black;
     text-decoration: none;
 }
+
+.block-divider {
+    padding-top: 2%;
+}
 /* End Bottom Navs */
 
 /* Media Queries */
@@ -561,6 +571,11 @@ textarea {
         font-size: 13px;
         width: 291px;
     }
+
+    #contact-container {
+        margin: 20px auto;
+        width: 95%;
+  }
 
 }
 
@@ -634,6 +649,18 @@ textarea {
 
     .nav-l {
         font-size: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+  
+    .underline {
+        width: 68px;
+    }
+  
+    #form-button {
+        padding: 15px 25px;
     }
 }
 /* END Media Queries */
