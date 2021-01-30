@@ -519,19 +519,19 @@ textarea {
     }
 
     .project-text h2 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .project-text h3 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .project-text-2 h2 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .project-text-2 h3 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
 }
@@ -572,10 +572,27 @@ textarea {
         width: 291px;
     }
 
+    .project-text p {
+        font-size: 13px;
+    }
+
+    .project-text-2 p {
+        font-size: 13px;
+    }
+
     #contact-container {
         margin: 20px auto;
         width: 95%;
-  }
+    }
+
+    .nav-l {
+        font-size: 18px;
+    }
+
+    .nav-l-2 {
+        font-size: 18px;
+    }
+
 
 }
 
@@ -640,7 +657,7 @@ textarea {
     }
 
     .text-block p {
-        font-size: 13px;
+        font-size: 11px;
         width: 100%;
         text-align: justify;
         letter-spacing: 0;
