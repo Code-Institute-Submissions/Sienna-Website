@@ -67,6 +67,7 @@ html {
     box-sizing: content-box;
     width: 69px;
     top: 80px;
+    mix-blend-mode: exclusion;
     z-index: 6;
 }
 
@@ -84,6 +85,7 @@ html {
     box-sizing: content-box;
     width: 69px;
     bottom: 3%;
+    mix-blend-mode: exclusion;
     z-index: 6;
 }
 /* END Heading Styles */
@@ -665,6 +667,10 @@ textarea {
     }
 
     .nav-l {
+        font-size: 15px;
+    }
+
+    .nav-l-2 {
         font-size: 15px;
     }
 
