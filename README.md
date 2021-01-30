@@ -62,3 +62,24 @@ the site is about.
 - Page includes a contact form asking for user name, number, email and the message they would like to send. 
 - Social media links 
 - Sienna's contact details.
+
+## Wireframes
+### Mobile Wireframes
+
+![initial wireframe](assets/img/wireframes/mobile-wireframes.jpg)
+
+### Medium Screen Wireframes
+
+![initial wireframe](assets/img/wireframes/medium-wireframes.jpg)
+
+### Large Screen Wireframes
+
+![initial wireframe](assets/img/wireframes/large-wireframes.jpg)
+
+
+
+
+
+
+
+---
