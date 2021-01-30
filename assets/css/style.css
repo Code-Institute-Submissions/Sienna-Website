@@ -296,21 +296,8 @@ img {
     overflow: auto;
 }
 
-.opaque-overlay-contact {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(20, 20, 20, 0.411);
-    z-index: 2;
-}
-
-
-
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
-
 button {	
     overflow: visible;	
 }	
@@ -474,7 +461,6 @@ textarea {
     font-weight: 100;	
     display: none;	
 }
-
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
 /*END Contact Form*/
@@ -520,6 +506,22 @@ textarea {
 @media screen and (max-width: 1024px) {
     .sub-heading {
         bottom: 9%;
+    }
+
+    .project-text h2 {
+        font-size: 25px;
+    }
+
+    .project-text h3 {
+        font-size: 17px;
+    }
+
+    .project-text-2 h2 {
+        font-size: 25px;
+    }
+
+    .project-text-2 h3 {
+        font-size: 17px;
     }
 
 }
