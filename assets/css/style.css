@@ -7,8 +7,9 @@ html {
     position: fixed;
     color: #EFA484;
     bottom: 20px;
-    padding-left: 15px;
+    padding-left: 5px;
     z-index: 6;
+    mix-blend-mode: exclusion;
 }
 /* Hero Image and Overlay Styles */
 .home-container {
@@ -68,7 +69,9 @@ html {
     font-weight: 400;
     writing-mode: vertical-rl;
     text-orientation: sideways-right;
-    color: #efa484;
+    /*color: #efa484*/
+    -webkit-text-stroke: 1.5px #EFA484;
+    -webkit-text-fill-color: transparent;
     font-style: italic;
     margin: 0;
     box-sizing: content-box;
@@ -87,7 +90,9 @@ html {
     font-style: italic;
     writing-mode: vertical-rl;
     text-orientation: sideways;
-    color: #efa484;
+    /*color: #efa484;*/
+    -webkit-text-stroke: 1.5px #EFA484;
+    -webkit-text-fill-color: transparent;
     margin: 0;
     box-sizing: content-box;
     width: 69px;
@@ -478,6 +483,17 @@ textarea {
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
 /*END Contact Form*/
+
+#facebook-link, #instagram-link {
+    padding-top: 30px;
+    color: white;
+}
+
+#contact-form a:hover {
+    text-decoration: none;
+    color: #EFA484;
+}
+
 
 /* Bottom Navs */
 .bottom-nav {
