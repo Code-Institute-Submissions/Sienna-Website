@@ -62,9 +62,7 @@ html {
     font-weight: 400;
     writing-mode: vertical-rl;
     text-orientation: sideways-right;
-    /*color: #efa484*/
-    -webkit-text-stroke: 1.5px #EFA484;
-    -webkit-text-fill-color: transparent;
+    color: #efa484;
     font-style: italic;
     margin: 0;
     box-sizing: content-box;
@@ -83,9 +81,7 @@ html {
     font-style: italic;
     writing-mode: vertical-rl;
     text-orientation: sideways;
-    /*color: #efa484;*/
-    -webkit-text-stroke: 1.5px #EFA484;
-    -webkit-text-fill-color: transparent;
+    color: #EFA484;
     margin: 0;
     box-sizing: content-box;
     width: 69px;
@@ -134,6 +130,10 @@ html {
 
 .dropdown {
     border: none !important;
+}
+
+.navbar .navbar-toggler {
+    border: none;
 }
 
 .dropdown-menu {
