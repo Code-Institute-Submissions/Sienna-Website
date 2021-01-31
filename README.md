@@ -76,10 +76,8 @@ the site is about.
 
 ![initial wireframe](assets/img/wireframes/large-wireframes.jpg)
 
-
-
-
-
-
-
 ---
+
+# Testing 
+
+## Bugs found and resolved
