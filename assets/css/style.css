@@ -3,18 +3,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.to-top {
-    width: 20px;
-    height: 40px;
-    font-size: 11px;
-    background-color: black;
-    color: #EFA484;
-    position: fixed;
-    right: 10px;
-    bottom: 20px;
-    text-align: center;
-    font-style: italic;
-}
 /* Hero Image and Overlay Styles */
 .home-container {
     height: 100vh;
