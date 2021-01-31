@@ -80,8 +80,40 @@ the site is about.
 
 # Testing 
 
+
 ## Bugs found and resolved
+### Unresponsive hamburger navigation
+The image below shows the ```.right-heading``` class with a padding-top set to 600px in the style.css. This meant that both the hamburger toggler and navigation links in the dropdown 
+menu were unresponsive. 
 
-### 
+![Small screen nav bug](assets/img/testing/nav-bug.jpg)
 
-![Small screen nav bug](assets/img/testing/nav-bug.jpg) 
+I had three options I could have used to resolve this issue. One was to change the css rule from padding-top to just top and set it to slightly less than the current pixels, that way there would be no padding on the top interfering with the 
+buttons. The second option was to change the Z index of both the ```.right-heading``` and ```.dropdown-item``` classes, with dropdown items being of a higher Z index. A third option, which is the one I opted for, was to change
+the style rule to a percentage from the bottom like so:
+```css
+.right-heading {
+    position: fixed;
+    right: -12px;
+    font-family: abril-fatface, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    font-style: italic;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    -webkit-text-stroke: 1.5px #EFA484;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    box-sizing: content-box;
+    width: 69px;
+
+    * bottom: 13%; *
+
+    mix-blend-mode: exclusion;
+    z-index: 4;
+}
+
+```
+I chose this option because not only because it fixed the bug but also made the ```.right-heading``` responsive to the viewport height.
+
+
