@@ -3,13 +3,17 @@ html {
     scroll-behavior: smooth;
 }
 
-.fa-long-arrow-alt-up {
-    position: fixed;
+.to-top {
+    width: 20px;
+    height: 40px;
+    font-size: 11px;
+    background-color: black;
     color: #EFA484;
+    position: fixed;
+    right: 10px;
     bottom: 20px;
-    padding-left: 5px;
-    z-index: 6;
-    mix-blend-mode: exclusion;
+    text-align: center;
+    font-style: italic;
 }
 /* Hero Image and Overlay Styles */
 .home-container {
@@ -31,6 +35,7 @@ html {
     height: 100%;
     width: 100%;
     background-color: rgba(20, 20, 20, 0.432);
+    overflow: hidden;
 }
 /* END Hero Image and Overlay Styles */
 
@@ -342,7 +347,7 @@ textarea {
 #contact-page {	
     border: solid 3px white;		
     max-width: 768px;
-    margin: 60px auto;
+    margin: 100px auto 0 auto;
     position: relative;	
     z-index: 6;	
 }	
@@ -558,6 +563,12 @@ textarea {
         font-size: 15px;
     }
 
+    img {
+        width: 60%;
+        height: auto;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -611,6 +622,12 @@ textarea {
 
     .nav-l-2 {
         font-size: 18px;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
     }
 
 
@@ -714,6 +731,11 @@ textarea {
   
     #form_button {
         padding: 15px 25px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
     }
 }
 
