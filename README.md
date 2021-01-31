@@ -81,3 +81,7 @@ the site is about.
 # Testing 
 
 ## Bugs found and resolved
+
+### 
+
+![Small screen nav bug](assets/img/testing/nav-bug.jpg) 
