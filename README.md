@@ -1,5 +1,5 @@
 # Sienna Gray Photography and Illustration
-### A personal site to provide information and promote the creative work of Sienna Gray.
+### A personal site to showcase and promote the creative work of Sienna Gray.
 ---
 # Project Overview
 This is my first milestone project as part of the Full Stack Development diploma for The Code Institute.
@@ -80,8 +80,25 @@ the site is about.
 
 # Testing 
 
+## Lighthouse in Chrome Dev Tools
 
-## Bugs found and resolved
+### Mobile Report 
+
+![Mobile screen Lighthouse Report](./assets/img/testing/mobile-lighthouse.jpg)
+As this site is very image heavy, a slight lack in performance was expected when building this site, especially when being used on a mobile device. Although this is not ideal, once the site is 
+fully loaded upon opening, the performace is fast enough for it not to be an issue. In terms of UX, a solution for this could be to include a loading page when the site is first opened, so the user
+isn't looking at a half loaded page.
+
+I have already put all the media provided by my sister through http://jpeg-optimizer.com/http://jpeg-optimizer.com/ to a level recommended to me, however I still got the results below. I attempted to reduce the image size even further but felt that I was compromising the 
+image quality too much, seeing as it is a photography website. Given that the perfomance is good enough once fully loaded I feel a loading page would be the best option in this case.
+
+![Poor performance cause](/assets/img/testing/result.jpg)
+
+### Desktop Report
+![Desktop screen Lighthouse Report](./assets/img/testing/desktop-lighthouse.jpg)
+
+
+# Known Bugs
 ### Unresponsive hamburger navigation
 The image below shows the ```.right-heading``` class with a padding-top set to 600px in the style.css. This meant that both the hamburger toggler and navigation links in the dropdown 
 menu were unresponsive. 
@@ -114,6 +131,7 @@ the style rule to a percentage from the bottom like so:
 }
 
 ```
-I chose this option because not only because it fixed the bug but also made the ```.right-heading``` responsive to the viewport height.
+I chose this option not only because it fixed the bug but also made the ```.right-heading``` class more responsive to the viewport height.
 
+---
 

@@ -157,7 +157,7 @@ html {
 
 /* About Page */
 .about-container {
-    height: 100vh;
+    height: auto !important;
     width: 100vw;
     background-color: #efa484;
     padding: 90px;
@@ -176,7 +176,7 @@ html {
 }
 
 img {
-    height: 100%;
+    height: auto;
 }
 /* END About Page */
 
