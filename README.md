@@ -114,6 +114,6 @@ the style rule to a percentage from the bottom like so:
 }
 
 ```
-I chose this option because not only because it fixed the bug but also made the ```.right-heading``` responsive to the viewport height.
+I chose this option not only because it fixed the bug but also made the ```.right-heading``` more responsive to the viewport height.
 
 
