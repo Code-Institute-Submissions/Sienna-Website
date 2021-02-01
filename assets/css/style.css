@@ -27,7 +27,7 @@ html {
 }
 /* END Hero Image and Overlay Styles */
 
-/* Heading Styles */
+/* Heading Styles */ 
 .main-heading {
     position: absolute;
     bottom: 18%;
@@ -42,6 +42,7 @@ html {
     padding: 0%;
     height: 127px;
 }
+
 
 .sub-heading {
     position: absolute;
@@ -92,9 +93,9 @@ html {
 /* END Heading Styles */
 
 /* Nav Styling */
+
 .navbar {
-    height: 40px;
-    padding: 30px;
+    background-color: transparent;
 }
 
 .navbar a {
