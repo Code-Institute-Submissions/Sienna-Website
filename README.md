@@ -78,6 +78,47 @@ the site is about.
 
 ---
 
+## Technologies Used
+
+### Languages Used
+
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+-  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Programs & Frameworks used
+
+[Google Fonts:](https://fonts.google.com/)
+
+- Google fonts, Abril-Fatface and Aileron were used throughout the project with sans-serif set as the backup. All linked in the head of the project to increase loading times.
+
+[Bootstrap 4.0.0:](https://getbootstrap.com/docs/4.0/)
+
+- Bootstrap was used for the navigation bar and throughout to help with the responsiveness.
+
+[Font Awesome](https://fontawesome.com/)
+
+- Font Awesome was used for the social icons in the contact form and the downwards chevron on the homepage.
+
+ [jQuery:](https://jquery.com/)
+
+- jQuery was used for the navbar toogler and dropdown menu.
+
+[Git](https://git-scm.com/)
+
+- Git was used for version control by utilizing the CLI to push and commit to GitHub.
+
+[GitHub:](https://github.com/)
+
+- GitHub used to store the code.
+
+[AdobeXD](https://www.adobe.com/uk/products/xd.html)
+
+- Adobe XD was used to produce the wireframes and Mockups for the project.
+
+
+
+
 # Testing 
 
 ## Lighthouse in Chrome Dev Tools
@@ -85,6 +126,7 @@ the site is about.
 ### Mobile Report 
 
 ![Mobile screen Lighthouse Report](./assets/img/testing/mobile-lighthouse.jpg)
+![Poor performance cause](/assets/img/testing/result.jpg)
 As this site is very image heavy, a slight lack in performance was expected when building this site, especially when being used on a mobile device. Although this is not ideal, once the site is 
 fully loaded upon opening, the performace is fast enough for it not to be an issue. In terms of UX, a solution for this could be to include a loading page when the site is first opened, so the user
 isn't looking at a half loaded page.
@@ -92,10 +134,12 @@ isn't looking at a half loaded page.
 I have already put all the media provided by my sister through http://jpeg-optimizer.com/http://jpeg-optimizer.com/ to a level recommended to me, however I still got the results below. I attempted to reduce the image size even further but felt that I was compromising the 
 image quality too much, seeing as it is a photography website. Given that the perfomance is good enough once fully loaded I feel a loading page would be the best option in this case.
 
-![Poor performance cause](/assets/img/testing/result.jpg)
+The best practices warning was due to the links that I used for the social media links. It pulled up a warning suggesting the external links were unsafe. 
 
 ### Desktop Report
+
 ![Desktop screen Lighthouse Report](./assets/img/testing/desktop-lighthouse.jpg)
+The desktop performance was much better this time round but still has a little bit of loading time upon startup.
 
 
 # Known Bugs
@@ -131,7 +175,5 @@ the style rule to a percentage from the bottom like so:
 }
 
 ```
-I chose this option not only because it fixed the bug but also made the ```.right-heading``` class more responsive to the viewport height.
-
 ---
 
