@@ -430,18 +430,18 @@ textarea {
     color: white;	
 }	
 
-#details {	
-    z-index: 6;	
-    color: white;	
-    font-family: Helvetica, sans-serif;	
-    font-size: 30px;	
-    width: 450px;	
-    margin-top: 400px;	
-    margin-left: 339px;	
-    margin-right: 200px;	
-    font-weight: 100;	
-    display: none;	
+.details {
+    font-family: serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
 }
+
+.socials a {
+    padding: 10px;
+}
+
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
 /*END Contact Form*/
@@ -521,6 +521,10 @@ textarea {
 
     .project-container, .about-container, .iphone-container {
         padding: 70px 70px 0 70px;
+    }
+
+    .project-text p, .project-text-2 p {
+        font-size: 15px;
     }
 
 
@@ -609,11 +613,7 @@ textarea {
         font-size: 15px;
     }
 
-    .project-container {
-        padding: 30px 30px 0 30px;
-    }
-
-    .iphone-container {
+    .project-container, .iphone-container, .project-container, .about-container {
         padding: 30px 30px 0 30px;
     }
 
@@ -627,14 +627,6 @@ textarea {
         column-count: 1;
     }
 
-    .project-container {
-        padding: 32px;
-    }
-
-    .about-container {
-        padding: 32px;
-    }
-
     .text-block p {
         font-size: 13px;
         width: 100%;
@@ -643,11 +635,7 @@ textarea {
         margin-bottom: 20px;
     }
 
-    .nav-l {
-        font-size: 15px;
-    }
-
-    .nav-l-2 {
+    .nav-l, .nav-l-2 {
         font-size: 15px;
     }
 
@@ -660,7 +648,7 @@ textarea {
     }
   
     #form-button {
-        padding: 15px 25px;
+        padding: 10px 25px;
     }
 
     h1 {
@@ -679,26 +667,39 @@ textarea {
         width: 100%;
         height: auto;
     }
+
+    #contact-form {
+        padding: 0 25px 0 25px;
+        margin: 0px;
+    }
+    
+    .details {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 115px;
+    }
 }
 
 @media screen and (max-width: 420px) {
-  h1 {
-    font-size: 20px;
-  }
+    h1 {
+        font-size: 20px;
+    }
   
+    .underline {
+        width: 53px;
+    }
   
-  .underline {
-    width: 53px;
-  }
-  
-  input[type='text'], [type='email'], select, textarea {
-    font-size: 0.875em;
-  }
+    input[type='text'], [type='email'], select, textarea {
+        font-size: 0.875em;
+    }
 
-  #contact-page {
-      height: 100vh;
-      margin: 0;
-  }
+    #contact-page {
+        height: 100vh;
+        margin: 0;
+    }
   
 }
 /* END Media Queries */
