@@ -2,8 +2,7 @@
 html {
     scroll-behavior: smooth;
 }
-
-/* Hero Image and Overlay Styles */
+/* Page Containers */
 .home-container {
     height: 100vh;
     background: url('../img/pages/hero-image.jpg');
@@ -16,6 +15,38 @@ html {
     position: relative;
 }
 
+.project-container, .iphone-container {
+    height: auto !important;
+    width: 100vw;
+    color: black;
+    padding: 90px 90px 0 90px;
+}
+
+.about-container {
+    height: auto !important;
+    width: 100vw;
+    background-color: #EFA484;
+    padding: 90px 90px 0 90px;
+}
+
+#project-two {
+    background-color: #efa484;
+}
+
+.contact-container {
+    height: 100vh;
+    background: url('../img/pages/contact-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    z-index: 5;
+    overflow: auto;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -25,7 +56,7 @@ html {
     background-color: rgba(12, 12, 12, 0.637);
     overflow: hidden;
 }
-/* END Hero Image and Overlay Styles */
+/* END Page Containers */
 
 /* Heading Styles */ 
 .main-heading {
@@ -130,12 +161,8 @@ html {
     color: #efa484;
 }
 
-.dropdown {
+.dropdown, .navbar .navbar-toggler {
     border: none !important;
-}
-
-.navbar .navbar-toggler {
-    border: none;
 }
 
 .dropdown-menu {
@@ -158,12 +185,6 @@ html {
 /* END Nav Styling */
 
 /* About Page */
-.about-container {
-    height: auto !important;
-    width: 100vw;
-    background-color: #efa484;
-    padding: 90px;
-}
 
 .text-block p {
     position: relative;
@@ -182,18 +203,6 @@ img {
 }
 /* END About Page */
 
-/* Project Containers */
-.project-container {
-    height: auto !important;
-    width: 100vw;
-    color: black;
-    padding: 90px 90px 0 90px;
-}
-
-.project-header {
-    text-align: center;
-}
-/* END Project Containers */
 
 /* Img Galleries */
 #project-one-photos, #project-two-photos, #project-three-photos {
@@ -205,21 +214,34 @@ img {
     column-gap: 40px;
 }
 
-#project-one-photos img, #project-two-photos img, #project-three-photos img {
+#project-one-photos img, #project-two-photos img, #project-three-photos img, #iphone-page img {
     width: 100% !important;
     height: auto !important;
     padding-top: 40px;
 }
+
+#iphone-photos {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 55px;
+    -moz-column-count: 2;
+    -moz-column-gap: 55px;
+    column-count: 2;
+    column-gap: 55px;
+}
 /* END Img Galleries */
 
 /* Text on project pages */
+.project-header {
+    text-align: center;
+}
+
 .project-text-iphone h2 {
     font-family: abril-fatface, sans-serif;
     font-size: 50px;
     color: black;
 }
 
-.project-text h2 {
+.project-text h2, .project-text-2 h2 {
     font-family: abril-fatface, sans-serif;
     font-size: 50px;
     color: black;
@@ -235,21 +257,6 @@ img {
     padding: 0%;
 }
 
-.project-text p {
-    font-family: aileron, sans-serif;
-    font-weight: 100;
-    font-size: 17px;
-    color: black;
-    text-align: justify;
-}
-
-.project-text-2 h2 {
-    font-family: abril-fatface, sans-serif;
-    font-size: 50px;
-    color: black;
-    text-align: center;
-}
-
 .project-text-2 h3 {
     text-align: center;
     font-family: aileron, sans-serif;
@@ -259,7 +266,7 @@ img {
     padding: 0%;
 }
 
-.project-text-2 p {
+.project-text p, .project-text-2 p {
     font-family: aileron, sans-serif;
     font-weight: 100;
     font-size: 17px;
@@ -267,49 +274,9 @@ img {
     text-align: justify;
 }
 
-#project-two {
-    background-color: #efa484;
-}
 /* END Text on project pages */
 
-/* iPhone Page */
-#iphone-photos {
-    -webkit-column-count: 2;
-    -webkit-column-gap: 55px;
-    -moz-column-count: 2;
-    -moz-column-gap: 55px;
-    column-count: 2;
-    column-gap: 55px;
-}
-
-#iphone-page img {
-    width: 100% !important;
-    height: auto !important;
-    padding-top: 40px;
-}
-
-.iphone-container {
-    height: auto !important;
-    width: 100vw;
-    color: black;
-    padding: 90px 90px 0px 90px;
-}
-/* END iPhone Page */
-
 /*Contact Form*/
-.contact-container {
-    height: 100vh;
-    background: url('../img/pages/contact-img.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 0%;
-    margin: 0%;
-    position: relative;
-    z-index: 5;
-    overflow: auto;
-}
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
 button {	
@@ -499,16 +466,12 @@ textarea {
     float: left;
     width: 33.3%;
     text-align: center;
-    color: white;
+    color: rgb(72 72 72);
     font-family: aileron, sans-serif;
     font-size: 20px;
     padding-bottom: 5px;
 }
 
-.nav-l-2:hover {
-    color: black;
-    text-decoration: none;
-}
 
 .nav-l {
     float: left;
@@ -520,10 +483,11 @@ textarea {
     padding-bottom: 5px;
 }
 
-.nav-l:hover {
+.nav-l:hover, .nav-l-2:hover {
     color: black;
     text-decoration: none;
 }
+
 
 .block-divider {
     padding-top: 2%;
@@ -533,29 +497,30 @@ textarea {
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
+    
     .sub-heading {
         bottom: 9%;
     }
 
-    .project-text h2 {
+    .project-text h2, .project-text-2 h2 {
         font-size: 22px;
     }
 
-    .project-text h3 {
-        font-size: 15px;
-    }
-
-    .project-text-2 h2 {
-        font-size: 22px;
-    }
-
-    .project-text-2 h3 {
+    .project-text h3, .project-text-2 h3 {
         font-size: 15px;
     }
 
     img {
         width: 60%;
         height: auto;
+    }
+
+    .nav-l, .nav-l-2 {
+        font-size: 19px;
+    }
+
+    .project-container, .about-container, .iphone-container {
+        padding: 70px 70px 0 70px;
     }
 
 
@@ -584,15 +549,7 @@ textarea {
         column-count: 2;
     }
 
-    .project-container {
-        padding: 45px 45px 0 45px;
-    }
-
-    .about-container {
-        padding: 45px 45px 0 45px;
-    }
-
-    .iphone-container {
+    .project-container, .about-container, .iphone-container {
         padding: 45px 45px 0 45px;
     }
 
@@ -601,20 +558,11 @@ textarea {
         width: 291px;
     }
 
-    .project-text p {
+    .project-text p, .project-text-2 p {
         font-size: 13px;
     }
 
-    .project-text-2 p {
-        font-size: 13px;
-    }
-
-
-    .nav-l {
-        font-size: 18px;
-    }
-
-    .nav-l-2 {
+    .nav-l .nav-l-2 {
         font-size: 18px;
     }
 
