@@ -94,11 +94,9 @@ html {
     font-size: 80px;
     font-weight: 400;
     writing-mode: vertical-rl;
-    text-orientation: sideways-right;
     color: #efa484;
     font-style: italic;
     margin: 0;
-    box-sizing: content-box;
     width: 69px;
     top: 70px;
     mix-blend-mode: exclusion;
@@ -113,10 +111,8 @@ html {
     font-weight: 400;
     font-style: italic;
     writing-mode: vertical-rl;
-    text-orientation: sideways;
     color: #EFA484;
     margin: 0;
-    box-sizing: content-box;
     width: 69px;
     bottom: 13%;
     mix-blend-mode: exclusion;
