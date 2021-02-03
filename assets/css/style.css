@@ -178,7 +178,7 @@ html {
 }
 
 .dropdown-item {
-    color: rgb(224, 224, 224);
+    color: rgb(225, 225, 225);
     font-size: 15px;
     font-weight: 100;
 }
@@ -314,6 +314,7 @@ textarea {
     position: relative;	
     z-index: 6;
     top: 100px;	
+    padding-bottom: 10px;
 }	
 
 #contact-form {
@@ -340,7 +341,7 @@ h1 {
 }	
 
 .underline {	
-    border-bottom: solid 2px white;	
+    border-bottom: solid 2px rgb(255, 255, 255);	
     margin: -0.512em auto;	
     width: 80px;	
 }	
@@ -354,7 +355,7 @@ h1 {
 input[type='text'], [type='email'], select, textarea {	
     background: none;	
     border: none;	
-    border-bottom: solid 2px white;	
+    border-bottom: solid 2px rgb(255, 255, 255);	
     color: white;	
     font-size: 1.000em;	
     font-weight: 400;	
@@ -448,6 +449,22 @@ textarea {
 
 .socials a {
     padding: 10px;
+}
+
+.circle {
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 21px;
+    line-height: 17px;
+}
+
+.circle:hover {
+    border: 1px sold #EFA484;
 }
 
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
@@ -679,7 +696,7 @@ textarea {
     }
 
     #contact-form {
-        padding: 0 25px 0 25px;
+        padding: 0 10px 0 10px;
         margin: 0px;
     }
     
@@ -689,8 +706,17 @@ textarea {
     }
 
     textarea {
-        height: 115px;
+        height: 81px;
+        margin-bottom: 16px;
     }
+
+    .circle {
+        width: 4em;
+        height: 4em;
+        padding: 6px;
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 420px) {

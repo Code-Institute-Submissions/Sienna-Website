@@ -32,7 +32,14 @@ The owner of the site still has to complete some of the projects that need to be
 2. As the owner, I want the site to clearly promote me and my photography work.
 3. as the owner, I want the site to make it easy for potential clients reach me through the site.
 
----
+## Design
+
+<img src="assets/img/testing/colour-palette.png" height="500px">
+
+For the colour palette I wanted to pick colours that sat well with all the imagery used on the site and that didn't draw the users attention away from the photography too much.
+I noticed that on all of my Sister's photos there is this nice orange hue that slightly comes through. After a little playing around with what I thought was nice we both came to choose 
+[#EFA484] which was used as little splashes of colour thoughout the site, being used on various headings and on links when hovered over.
+ To generate the palette I used a site called coolors company: https://coolors.co/
 
 ## Skeleton
 
@@ -64,22 +71,27 @@ the site is about.
 - Sienna's contact details.
 
 ## Wireframes
-### Mobile Wireframes
 
-![initial wireframe](assets/img/wireframes/mobile-wireframes.jpg)
-
-### Medium Screen Wireframes
-
-![initial wireframe](assets/img/wireframes/medium-wireframes.jpg)
-
-### Large Screen Wireframes
-
-![initial wireframe](assets/img/wireframes/large-wireframes.jpg)
-
+[Mobile Wireframe](https://xd.adobe.com/view/2495ed86-ca46-4683-a724-b036d7f20825-71c6/)
 ---
 
-## Technologies Used
+<img src="assets/img/wireframes/mobile-wire.png" width="80%">
 
+[Ipad Wireframes](https://xd.adobe.com/view/716cc31a-4b4f-48b3-8c9f-d2759a8f4409-243f/)
+---
+
+<img src="assets/img/wireframes/ipad-wire.png" width="80%">
+
+
+[Desktop Wireframes](https://xd.adobe.com/view/7b1150ed-1739-47a9-95a1-fa82d84c8113-2e42/)
+---
+
+<img src="assets/img/wireframes/full-screen-wire.png" width="80%">
+
+---
+# Features
+
+# Technologies Used
 ### Languages Used
 
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -90,7 +102,7 @@ the site is about.
 
 [Google Fonts:](https://fonts.google.com/)
 
-- Google fonts, Abril-Fatface and Aileron were used throughout the project with sans-serif set as the backup. All linked in the head of the project to increase loading times.
+- Google fonts, Abril-Fatface, Aileron and serif were used throughout the project with sans-serif set as the backup. All linked in the head of the project to increase loading times.
 
 [Bootstrap 4.0.0:](https://getbootstrap.com/docs/4.0/)
 
@@ -127,19 +139,10 @@ the site is about.
 
 ![Mobile screen Lighthouse Report](./assets/img/testing/mobile-lighthouse.jpg)
 ![Poor performance cause](/assets/img/testing/result.jpg)
-As this site is very image heavy, a slight lack in performance was expected when building this site, especially when being used on a mobile device. Although this is not ideal, once the site is 
-fully loaded upon opening, the performace is fast enough for it not to be an issue. In terms of UX, a solution for this could be to include a loading page when the site is first opened, so the user
-isn't looking at a half loaded page.
 
-I have already put all the media provided by my sister through http://jpeg-optimizer.com/http://jpeg-optimizer.com/ to a level recommended to me, however I still got the results below. I attempted to reduce the image size even further but felt that I was compromising the 
-image quality too much, seeing as it is a photography website. Given that the perfomance is good enough once fully loaded I feel a loading page would be the best option in this case.
-
-The best practices warning was due to the links that I used for the social media links. It pulled up a warning suggesting the external links were unsafe. 
 
 ### Desktop Report
 
-![Desktop screen Lighthouse Report](./assets/img/testing/desktop-lighthouse.jpg)
-The desktop performance was much better this time round but still has a little bit of loading time upon startup.
 
 
 # Known Bugs
@@ -149,9 +152,9 @@ menu were unresponsive.
 
 ![Small screen nav bug](assets/img/testing/nav-bug.jpg)
 
-I had three options I could have used to resolve this issue. One was to change the css rule from padding-top to just top and set it to slightly less than the current pixels, that way there would be no padding on the top interfering with the 
-buttons. The second option was to change the Z index of both the ```.right-heading``` and ```.dropdown-item``` classes, with dropdown items being of a higher Z index. A third option, which is the one I opted for, was to change
-the style rule to a percentage from the bottom like so:
+There are a couple of solutions to this bug, but the one I opted for was to change the ```top: 600px ``` to ```bottom: 13%``` like so. This not only fixed the bug but also made the ```.right-heading``` more 
+responsive to the viewport height.
+
 ```css
 .right-heading {
     position: fixed;
