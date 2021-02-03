@@ -42,6 +42,7 @@ html {
     background-attachment: fixed;
     padding: 0%;
     margin: 0%;
+    overflow: -moz-hidden-unscrollable;
     position: relative;
     z-index: 5;
 }
@@ -107,7 +108,7 @@ html {
     font-style: italic;
     margin: 0;
     width: 69px;
-    top: 70px;
+    top: 80px;
     mix-blend-mode: exclusion;
     z-index: 4;
 }
@@ -166,7 +167,7 @@ html {
     color: #efa484;
 }
 
-.dropdown, .navbar .navbar-toggler{
+.dropdown, .navbar .navbar-toggler {
     border: none;
 }
 
@@ -309,14 +310,16 @@ textarea {
 #contact-page {	
     border: solid 3px rgb(255, 255, 255);		
     max-width: 768px;
-    margin: 100px auto 0 auto;
+    margin: 0 auto 0 auto;
     position: relative;	
-    z-index: 6;	
+    z-index: 6;
+    top: 100px;	
 }	
 
 #contact-form {
     width: 100%;
     text-align: center;
+    position: relative;
 }
 
 form {	
@@ -538,8 +541,10 @@ textarea {
 @media screen and (max-width: 768px) {
 
     .main-heading {
-        font-size: 80px;
+        font-size: 66px;
+        bottom: 203px;
     }
+
 
     .left-heading {
         font-size: 50px;
@@ -704,6 +709,7 @@ textarea {
     #contact-page {
         height: 100vh;
         margin: 0;
+        top: 0px;
     }
   
 }
