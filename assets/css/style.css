@@ -16,14 +16,14 @@ html {
 }
 
 .project-container, .iphone-container {
-    height: auto !important;
+    height: auto;
     width: 100vw;
     color: rgb(0, 0, 0);
     padding: 80px 80px 0 80px;
 }
 
 .about-container {
-    height: auto !important;
+    height: auto;
     width: 100vw;
     background-color: #EFA484;
     padding: 80px 80px 0 80px;
@@ -44,7 +44,16 @@ html {
     margin: 0%;
     position: relative;
     z-index: 5;
-    overflow: auto;
+}
+
+.opaque-overlay-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.438);
+    overflow: hidden;
 }
 
 .opaque-overlay {
@@ -157,8 +166,8 @@ html {
     color: #efa484;
 }
 
-.dropdown, .navbar .navbar-toggler {
-    border: none !important;
+.dropdown, .navbar .navbar-toggler{
+    border: none;
 }
 
 .dropdown-menu {
@@ -211,8 +220,8 @@ img {
 }
 
 #project-one-photos img, #project-two-photos img, #project-three-photos img, #iphone-page img {
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
     padding-top: 40px;
 }
 
