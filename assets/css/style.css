@@ -42,7 +42,7 @@ html {
     background-attachment: fixed;
     padding: 0%;
     margin: 0%;
-    overflow: -moz-hidden-unscrollable;
+    overflow: visible;
     position: relative;
     z-index: 5;
 }
@@ -54,6 +54,7 @@ html {
     height: 100%;
     width: 100%;
     background-color: rgba(12, 12, 12, 0.438);
+    overflow: visible;
 }
 
 .opaque-overlay {
@@ -211,12 +212,13 @@ img {
 
 /* Img Galleries */
 #project-one-photos, #project-two-photos, #project-three-photos {
+    column-count: 3;
+    column-gap: 40px;
     -webkit-column-count: 3;
     -webkit-column-gap: 40px;
     -moz-column-count: 3;
     -moz-column-gap: 40px;
-    column-count: 3;
-    column-gap: 40px;
+    
 }
 
 #project-one-photos img, #project-two-photos img, #project-three-photos img, #iphone-page img {
@@ -226,12 +228,12 @@ img {
 }
 
 #iphone-photos {
+    column-count: 2;
+    column-gap: 55px;
     -webkit-column-count: 2;
     -webkit-column-gap: 55px;
     -moz-column-count: 2;
     -moz-column-gap: 55px;
-    column-count: 2;
-    column-gap: 55px;
 }
 /* END Img Galleries */
 
@@ -293,7 +295,7 @@ button, select {
 }	
 
 button, input, select, textarea {	
-    color: white;	
+    color: rgb(255, 255, 255);	
     font: inherit;	
     margin: 0;	
 }	
@@ -314,6 +316,7 @@ textarea {
     z-index: 6;
     top: 100px;	
     padding-bottom: 10px;
+    overflow: visible;
 }	
 
 #contact-form {
@@ -327,8 +330,8 @@ form {
     margin: 50px 0;	
 }	
 
-h1 {	
-    color: white;	
+.contact-container h2 {	
+    color: rgb(255, 255, 255);	
     font-family: abril-fatface, sans-serif;	
     font-size: 50px;	
     font-weight: 400;	
@@ -355,7 +358,7 @@ input[type='text'], [type='email'], select, textarea {
     background: none;	
     border: none;	
     border-bottom: solid 2px rgb(255, 255, 255);	
-    color: white;	
+    color: rgb(255, 255, 255);	
     font-size: 1.000em;	
     font-weight: 400;	
     letter-spacing: 1px;	
@@ -370,8 +373,8 @@ input[type='text'], [type='email'], select, textarea {
 	box-sizing: border-box;	
 	-webkit-transition: all 0.3s;	
 	-moz-transition: all 0.3s;	
-	-ms-transition: all 0.3s;	
-	-o-transition: all 0.3s;	
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;	
 }	
 
@@ -397,27 +400,27 @@ textarea {
 }	
 
 ::-webkit-input-placeholder {	
-	color: white;	
+	color: rgb(255, 255, 255);	
 }	
 
 :-moz-placeholder { 	
-	color: white;	
+	color: rgb(255, 255, 255);	
 	opacity: 1;	
 }	
 
 ::-moz-placeholder {	
-	color: white;	
+	color: rgb(255, 255, 255);	
 	opacity: 1;	
 }	
 
 :-ms-input-placeholder {	
-	color: white;	
+	color: rgb(255, 255, 255);	
 }	
 
 #form-button {	
     background: none;	
     border: solid 2px white;	
-    color: white;	
+    color: rgb(255, 255, 255);	
     cursor: pointer;	
     display: inline-block;	
     font-family: 'Helvetica', Arial, sans-serif;	
@@ -426,16 +429,16 @@ textarea {
     outline: none;	
     padding: 20px 35px;	
     text-transform: uppercase;	
-    -webkit-transition: all 0.3s;	
+    -webkit-transition: all 0.3s;	 
 	-moz-transition: all 0.3s;	
 	-ms-transition: all 0.3s;	
-	-o-transition: all 0.3s;	
+	-o-transition: all 0.3s;
 	transition: all 0.3s;	
 }	
 
 #form-button:hover {	
     background: #EFA484;	
-    color: white;	
+    color: rgb(255, 255, 255);	
 }	
 
 .details {
@@ -462,17 +465,13 @@ textarea {
     line-height: 17px;
 }
 
-.circle:hover {
-    border: 1px sold #EFA484;
-}
-
 /* https://codepen.io/dfitzy/pen/VepqMq */ 
 /* I took some of the css to style my own contact page from this design */ 
 /*END Contact Form*/
 
 #facebook-link, #instagram-link {
     padding-top: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #contact-form a:hover {
@@ -669,7 +668,7 @@ textarea {
         font-size: 15px;
     }
 
-    h1 {
+    .contact-container h2 {
         font-size: 26px;
     }
   
@@ -679,10 +678,6 @@ textarea {
   
     #form-button {
         padding: 10px 25px;
-    }
-
-    h1 {
-        font-size: 26px;
     }
   
     .underline {
@@ -699,7 +694,7 @@ textarea {
     }
 
     #contact-form {
-        padding: 0 10px 0 10px;
+        padding: 0 20px 0 20px;
         margin: 0px;
     }
     

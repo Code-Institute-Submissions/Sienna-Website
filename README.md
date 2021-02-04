@@ -40,8 +40,13 @@ The owner of the site still has to complete some of the projects that need to be
 
 For the colour palette I wanted to pick colours that sat well with all the imagery used on the site and that didn't draw the users attention away from the photography too much.
 I noticed that on all of my Sister's photos there is this nice orange hue that slightly comes through. After a little playing around with what I thought was nice we both came to choose 
-[#EFA484] which was used as little splashes of colour thoughout the site, being used on various headings and on links when hovered over.
- To generate the palette I used a site called coolors company: https://coolors.co/
+[#EFA484] which was used as little splashes of colour thoughout the site, being used on various headings and on links when hovered over. 
+
+[#969696] Was used on the navigation bars located at the bottom of each of the section. These were originally the orange colour but I felt that I could improve the contrast ratio so I opted for the grey.
+
+[#0A0A0A] Was used on the sections largest headings. Simple, bold and eye catching but doesn't obstruct any of the imagery. The [#FFFFFF] was then used as he inverse headings for the sections with the orange background.
+This was to keep the site interesting on the eyes as you scrolled down the page.
+
 
 ## Skeleton
 
