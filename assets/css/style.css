@@ -33,7 +33,7 @@ html {
     background-color: #efa484;
 }
 
-.contact-container {
+.contact-container { 
     height: 100vh;
     background: url('../img/pages/contact-img.jpg');
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ html {
     z-index: 5;
 }
 
-.opaque-overlay-contact {
+.opaque-overlay-contact { 
     position: absolute;
     top: 0;
     left: 0;
@@ -328,6 +328,7 @@ textarea {
 form {	
     padding: 37.5px;	
     margin: 50px 0;	
+    overflow: visible;
 }	
 
 .contact-container h2 {	
@@ -720,6 +721,10 @@ textarea {
 @media screen and (max-width: 420px) {
     h1 {
         font-size: 20px;
+    }
+
+    .sub-heading {
+        line-height: 25px;
     }
   
     .underline {
