@@ -26,7 +26,7 @@ The owner of the site still has to complete some of the projects that need to be
 ## User stories
 ### Visitor goals
 1. As a visitor, I want to learn about Sienna's background and services.
-2. As a visitor, I want to easilty view her previous work.
+2. As a visitor, I want to easily view her previous work.
 3. As a visitor, I want to be able to easily message her through the site.
 4. As a visitor, I want to be able to receive her contact details and be able to enter mine.
 ### Owner goals
@@ -35,8 +35,9 @@ The owner of the site still has to complete some of the projects that need to be
 3. as the owner, I want the site to make it easy for potential clients reach me through the site.
 
 ## Design
+### Colour Scheme
 
-<img src="assets/img/testing/colour-palette.png" height="500px">
+<img src="assets/img/testing/design/colour-palette.png"/>
 
 For the colour palette I wanted to pick colours that sat well with all the imagery used on the site and that didn't draw the users attention away from the photography too much.
 I noticed that on all of my Sister's photos there is this nice orange hue that slightly comes through. After a little playing around with what I thought was nice we both came to choose 
@@ -44,9 +45,24 @@ I noticed that on all of my Sister's photos there is this nice orange hue that s
 
 [#969696] Was used on the navigation bars located at the bottom of each of the section. These were originally the orange colour but I felt that I could improve the contrast ratio so I opted for the grey.
 
-[#0A0A0A] Was used on the sections largest headings. Simple, bold and eye catching but doesn't obstruct any of the imagery. The [#FFFFFF] was then used as he inverse headings for the sections with the orange background.
+[#0A0A0A] Was used on the sections largest headings. Simple, bold and eye catching but doesn't obstruct any of the imagery. The [#FFFFFF] was then used as the inverse headings for the sections with the orange background.
 This was to keep the site interesting on the eyes as you scrolled down the page.
 
+### Typography
+
+- The font used in the main bodies of text and text blocks was Google Fonts 'Aileron' with a weight of 100, styles of lowercase and uppercase, with sans-serif used as a fallback font. 
+Simple easy to read and was a great match with the fonts used on the landing page and headings.
+
+<img src="assets/img/design/text-block.png" height="30px"/>
+
+- All large headings used Google Fonts 'Abril-Fatface' also with sans-serif as a fallback font. For the landing page I used an italicised version and for each sections 
+main heading I used regular with a weight of 400. This was to continue with the theme of the landing page.
+
+<img src="assets/img/design/main-title.png" height="30px"/><img src="assets/img/design/section-title.png" height="30px"/>
+
+- For the contact page and sub headings uppercase 'Aileron' was used because it's really clear and easy to read. It was also a nice match with the other fonts and font styles used across the site.
+
+<img src="assets/img/design/contact-type.png" height="30px"/><img src="assets/img/design/sub-type.png" height="30px"/>
 
 ## Skeleton
 
@@ -94,6 +110,11 @@ the site is about.
 ---
 
 <img src="assets/img/wireframes/full-screen-wire.png" width="80%">
+
+## Mockups 
+
+
+
 
 ---
 # Features
@@ -148,42 +169,10 @@ the site is about.
 ![Poor performance cause](/assets/img/testing/result.jpg)
 
 
-### Desktop Report
 
 
-
+# Bug Fixes
 # Known Bugs
-### Unresponsive hamburger navigation
-The image below shows the ```.right-heading``` class with a padding-top set to 600px in the style.css. This meant that both the hamburger toggler and navigation links in the dropdown 
-menu were unresponsive. 
+# Deployment
 
-![Small screen nav bug](assets/img/testing/nav-bug.jpg)
-
-There are a couple of solutions to this bug, but the one I opted for was to change the ```top: 600px ``` to ```bottom: 13%``` like so. This not only fixed the bug but also made the ```.right-heading``` more 
-responsive to the viewport height.
-
-```css
-.right-heading {
-    position: fixed;
-    right: -12px;
-    font-family: abril-fatface, sans-serif;
-    font-size: 80px;
-    font-weight: 400;
-    font-style: italic;
-    writing-mode: vertical-rl;
-    text-orientation: sideways;
-    -webkit-text-stroke: 1.5px #EFA484;
-    -webkit-text-fill-color: transparent;
-    margin: 0;
-    box-sizing: content-box;
-    width: 69px;
-
-    * bottom: 13%; *
-
-    mix-blend-mode: exclusion;
-    z-index: 4;
-}
-
-```
----
 
