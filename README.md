@@ -10,9 +10,19 @@ Site Link: https://connorgray97.github.io/Sienna-Website/
 
 [UX](#UX)
 
+[Design](#design)
+
 [Wireframes](#Wireframes)
 
 [Technologies Used](#tech-used)
+
+[Testing](#testing)
+
+[Bug fixes and known bugs](#bug-fixes)
+
+[Deployment](#deployment)
+
+
 
 # Project Overview
 This is my first milestone project as part of the Full Stack Development diploma for The Code Institute.
@@ -46,6 +56,7 @@ The owner of the site still has to complete some of the projects that need to be
 2. As the owner, I want the site to clearly promote me and my photography work.
 3. as the owner, I want the site to make it easy for potential clients reach me through the site.
 
+<a name="design"></a>
 ## Design
 ### Colour Scheme
 
@@ -177,9 +188,13 @@ the site is about.
 
 - Adobe XD was used to produce the wireframes and Mockups for the project.
 
+[Jpeg Optimizer](http://www.jpeg-optimizer.com/)
+
+- I used this jpeg optimizer to compress all the imagery to help with performance results.
 
 
 
+<a name="testing"></a>
 # Testing 
 
 ### Code validation
@@ -285,7 +300,7 @@ I struggled to find a solution for this one.
      iii. When you hit submit, the form is sent and you are taken back to the top of the site where you can continue to navigate the site.
     
 
-
+<a name="bug-fixes"></a>
 
 ### Bug Fixes
 - Contact form was showing a 405 error when the form was submitted - [Bug Fix](https://github.com/ConnorGray97/Sienna-Website/commit/d1a56f20ba6ce0461a274833c7da3326c4eb63ea)
@@ -301,7 +316,9 @@ I struggled to find a solution for this one.
 - On Safari browser the ```.left-heading``` and ```.right-heading``` are both pushed over to one side of the browser and the ```mix-blend-mode: exclusion;``` has a different colour than expected when passing through sections with a white 
 background.
 
+- On the contact page when the viewport height overlaps the form it cuts the bottom off. Had a difficult time figuring out what the cause was.
 
+<a name="deployment"></a>
 # Deployment
 
 ### GitHub Pages
@@ -330,6 +347,54 @@ GitHub pages was used to deploy the site...
 2. At the top of the Repository locate the "Fork" Button.
 
 3. There will now be a copy of the repository in your git GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [Sienna-Website](https://github.com/ConnorGray97/Sienna-Website) repository.
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/ConnorGray97/Sienna-Website/
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/ConnorGray97/Sienna-Website/
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+<a name="credits"></a>
+# Credits
+
+## Content
+
+- I used Code institutes [sample README.md](https://github.com/Code-Institute-Solutions/SampleREADME) as inspiration for my own.
+
+## Media
+
+- Thanks to my sister [Sienna Gray](https://www.instagram.com/siennagrayy/?hl=en) for supplying the amazing imagery and making my life easy.
+
+## Code
+
+- I adapted this contact form styling from [Code Pen](https://codepen.io/dfitzy/pen/VepqMq) to suit my own site.
+- [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) was used for the navigation bar and throughout.
+
+# Acknowledgements
+
+- Massive thanks to my mentor Maranatha for the help and support.
+- Thank you to the amazing community on slack for all the help when needed.
+
 
 
 
