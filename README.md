@@ -44,7 +44,7 @@ The Strategy of Sienna's personal site is to increase the amount of potential bo
 
 ## Scope
 The sites main role is promote work within a creative industry so it will need to be eye catching, user friendly and with a well designed layout that suites the target audience of Sienna's work. 
-The owner of the site still has to complete some of the projects that need to be added to the site, therefore it will be made to an MVP standard and if and when contents need to be added it can be.
+The owner of the site still has to complete some of the projects that need to be added to the site, therefore it will be made to an MVP standard and if and when contents needss to be added it can be.
 
 ## User stories
 ### Visitor goals
@@ -286,7 +286,7 @@ I struggled to find a solution for this one.
 
      i. The landing page has a navigation bar at the top with links that indicate where the user will be taken to.
 
-     ii. The site is divided into sections and each section shows a different project that Sienna has been apart of.
+     ii. The site is divided into sections and each section shows a different project that Sienna has been a part of.
      
      iii. At the bottom of each section is a navigation another bar which clearly indicates the rest of the sites sections.
 
