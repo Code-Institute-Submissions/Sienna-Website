@@ -22,6 +22,8 @@ Site Link: https://connorgray97.github.io/Sienna-Website/
 
 [Deployment](#deployment)
 
+[Credits](#credits)
+
 
 
 # Project Overview
