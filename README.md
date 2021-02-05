@@ -6,6 +6,14 @@
 Site Link: https://connorgray97.github.io/Sienna-Website/
 
 ---
+# Table of contents
+
+[UX](#UX)
+
+[Wireframes](#Wireframes)
+
+[Technologies Used](#tech-used)
+
 # Project Overview
 This is my first milestone project as part of the Full Stack Development diploma for The Code Institute.
 
@@ -14,8 +22,8 @@ which has led to an impressive body of work.
 
 Up until now she has been using various social media platforms to promote and contact clients. Which has been making it difficult to keep track of potential and current bookings.
 I saw this as a good opportunity to create a simple, clearly structured and eye catching site to further promote Sienna's work and to make it easier for potential clients to reach her.
-
-# UX
+<a name="UX"></a>
+# UX 
 
 ## Strategy
 The Strategy of Sienna's personal site is to increase the amount of potential bookings and people viewing her work. Futhermore to increase the amount of people contacting her.
@@ -28,12 +36,11 @@ The owner of the site still has to complete some of the projects that need to be
 
 ## User stories
 ### Visitor goals
-1. As a visitor, I want my first impressions to be positive.
-2. As a visitor, I want to easily understand the role of the site and what services may be porvided.
+1. As a visitor, I want to immediately be impressed when opening the site.
+2. As a visitor, I want to easily understand the role of the site and what services may be provided.
 3. As a visitor, I want to learn about Sienna's background and services.
 4. As a visitor, I want to easily view her previous work.
 5. As a visitor, I want to be able to easily message her through the site.
-6. As a visitor, I want to be able to receive her contact details and be able to enter mine.
 ### Owner goals
 1. As the owner, I want the site to be easy to navigate.
 2. As the owner, I want the site to clearly promote me and my photography work.
@@ -98,6 +105,7 @@ the site is about.
 - Social media links 
 - Sienna's contact details.
 
+<a name="Wireframes"></a>
 ## Wireframes
 
 [Mobile Wireframe](https://xd.adobe.com/view/2495ed86-ca46-4683-a724-b036d7f20825-71c6/)
@@ -131,7 +139,7 @@ the site is about.
 
 ---
 
-
+<a name="tech-used"></a>
 # Technologies Used
 ### Languages Used
 
@@ -183,6 +191,14 @@ This warning was expected as I purposly didn't include a heading.
 
 -  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - <img src="assets/img/testing/css-result.png">
 
+### Lighthouse in dev tools
+
+Both mobile and desktop tests came back with high scores. Some improvements can be made to the performance which was expected with such an image heavy site. I used http://www.jpeg-optimizer.com/ to compress the images
+to a point where the image quality wasn't lost too much. A possible future solution to the performance could be to include a loading page when the site starts up so the user isn't looking at a half loaded page.
+
+Responsiveness was also tested extensively in the dev tools, on multiple device types.
+
+---
 
 
 ### Functionality Testing
@@ -236,18 +252,39 @@ I struggled to find a solution for this one.
 
 ## Testing User Stories
 
-1. As a visitor, I want to learn about Sienna's background and services.
+
+1. As a visitor, I want to immediately be impressed when opening the site.
+   
+     i. When a user opens the site you are met with a striking, professional hero image, stylised typography either side  and with chosen colours that nicely complement each other.
+
+2. As a visitor, I want to easily understand the role of the site and what services may be provided.
+
+     i. The user is met with the site owners name, a posed photo set as the hero image and sub heading that sais "Photography and illustration"
+
+3. As a visitor, I want to learn about Sienna's background and services.
     
      i. After the landing page, the user is met with an about page outlining what Sienna does and what she has previously achieved.
      
-2. As a visitor, I want to easily view her previous work.
+4. As a visitor, I want to easily navigate and view her previous work.
 
-     i. The site is divided into sections and each section shows a different project that Sienna has been apart of.
+     i. The landing page has a navigation bar at the top with links that indicate where the user will be taken to.
+
+     ii. The site is divided into sections and each section shows a different project that Sienna has been apart of.
      
-     ii. The site is very easy to navigate, making it easy for the user to quickly view alot of previous work.
+     iii. At the bottom of each section is a navigation another bar which clearly indicates the rest of the sites sections.
 
-3. As a visitor, I want to be able to easily message her through the site.
-4. As a visitor, I want to be able to receive her contact details and be able to enter mine.
+     iv. The site has nicely layed out image galleries easy for the user to view Sienna's work.
+
+
+5. As a visitor, I want to be able to easily message her through the site.
+     
+     i. There is a contact form at the bottom of the site that inludes links to Sienna's social media accounts and inludes her email address.
+
+     ii. The contact form includes a message section where you can directly contact Sienna through the site.
+
+     iii. When you hit submit, the form is sent and you are taken back to the top of the site where you can continue to navigate the site.
+    
+
 
 
 ### Bug Fixes
@@ -262,7 +299,7 @@ I struggled to find a solution for this one.
 ### Known Bugs
 
 - On Safari browser the ```.left-heading``` and ```.right-heading``` are both pushed over to one side of the browser and the ```mix-blend-mode: exclusion;``` has a different colour than expected when passing through sections with a white 
-background
+background.
 
 
 # Deployment
@@ -285,9 +322,7 @@ GitHub pages was used to deploy the site...
 
 ### Forking the GitHub Repository
 
-  
-
-Forking a repository is making a copy that can have changes made to it without affecting the original copy, these are the steps:
+  Forking a repository is making a copy that can have changes made to it without affecting the original copy, these are the steps:
 
   
 1. In GitHub locate [Sienna-Website Repository](https://github.com/ConnorGray97/Sienna-Website)
@@ -295,6 +330,8 @@ Forking a repository is making a copy that can have changes made to it without a
 2. At the top of the Repository locate the "Fork" Button.
 
 3. There will now be a copy of the repository in your git GitHub account.
+
+
 
 
 
