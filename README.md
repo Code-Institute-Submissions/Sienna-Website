@@ -1,5 +1,8 @@
 # Sienna Gray Photography and Illustration
 ### A personal site to showcase and promote the creative work of Sienna Gray.
+
+<img src="assets/img/design/preview.png">
+
 Site Link: https://connorgray97.github.io/Sienna-Website/
 
 ---
@@ -25,10 +28,12 @@ The owner of the site still has to complete some of the projects that need to be
 
 ## User stories
 ### Visitor goals
-1. As a visitor, I want to learn about Sienna's background and services.
-2. As a visitor, I want to easily view her previous work.
-3. As a visitor, I want to be able to easily message her through the site.
-4. As a visitor, I want to be able to receive her contact details and be able to enter mine.
+1. As a visitor, I want my first impressions to be positive.
+2. As a visitor, I want to easily understand the role of the site and what services may be porvided.
+3. As a visitor, I want to learn about Sienna's background and services.
+4. As a visitor, I want to easily view her previous work.
+5. As a visitor, I want to be able to easily message her through the site.
+6. As a visitor, I want to be able to receive her contact details and be able to enter mine.
 ### Owner goals
 1. As the owner, I want the site to be easy to navigate.
 2. As the owner, I want the site to clearly promote me and my photography work.
@@ -37,7 +42,7 @@ The owner of the site still has to complete some of the projects that need to be
 ## Design
 ### Colour Scheme
 
-<img src="assets/img/testing/design/colour-palette.png"/>
+<img src="assets/img/design/colour-palette.png"/>
 
 For the colour palette I wanted to pick colours that sat well with all the imagery used on the site and that didn't draw the users attention away from the photography too much.
 I noticed that on all of my Sister's photos there is this nice orange hue that slightly comes through. After a little playing around with what I thought was nice we both came to choose 
@@ -113,11 +118,19 @@ the site is about.
 
 ## Mockups 
 
+[Large screen mockups](https://xd.adobe.com/view/d56ceb9a-6946-4320-9864-3b0e97968112-803f/)
 
+[Mobile mockups](https://xd.adobe.com/view/07929eeb-00e8-46e0-8a9f-f0c6010caf17-52c1/)
+
+### Changes since original wireframes
+
+- I opted for a top navigation bar on the landing page as oposed to the originally planned bottom nav bar, I felt it sat better with the hero image used and didn't obstruct the view of it as much.
+- The hamburger dropdown menu is now transparent background in the top right.
+- The contact form doesn't have a bottom nav but now has a back to top button. 
 
 
 ---
-# Features
+
 
 # Technologies Used
 ### Languages Used
@@ -161,18 +174,128 @@ the site is about.
 
 # Testing 
 
-## Lighthouse in Chrome Dev Tools
+### Code validation
 
-### Mobile Report 
+Checking for any Syntax errors was done using the W3C HTML5 and CSS3 validators.
 
-![Mobile screen Lighthouse Report](./assets/img/testing/mobile-lighthouse.jpg)
-![Poor performance cause](/assets/img/testing/result.jpg)
+-  [W3C Markup Validator](https://validator.w3.org) - <img src="assets/img/testing/html-result.png">
+This warning was expected as I purposly didn't include a heading. 
+
+-  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - <img src="assets/img/testing/css-result.png">
 
 
 
+### Functionality Testing
+- #### Navigation bar
+    - All links are working and have been tested on multiple browsers and devices.
+    - All links collapse and the hamburger nav appears on screen sizes 992px or smaller. 
+    - All hamburger links have been tested and take you to the correct corresponding pages.
+- #### Bottom navigation bars
+    - All bottom navigation bars remain at the bottom of each page. Tested on multiple device sizes and browsers.
+    - All links have been tested and take you to the correct corresponding pages.
+- #### Image galleries
+    - All images load correctly on a multitude of devices and browsers.
+    - Image column count collapses from three to two between 768px and 480px to increase image size. Cross browser testing was done.
+    - Image column count collapses to one on screens at 480px and smaller.
+- #### Fixed typography 
+    - Sideways type remained in a fixed positon while scrolling through the site without interfering with any links or imagery.
+    - Colour changes whilst scrolling through different colour pages to keep the contrast ratios up.
+- #### Contact form
+    - Required message popped up when a field was left unfilled. 
+    - GET method was completed with no 405 error
+    - Form is fully responsive on multiple browsers and devices.
+---
 
-# Bug Fixes
-# Known Bugs
+### Cross Browser Testing
+
+My mentor suggested to me that I may experience some browser compatibility issues with some of the CSS rules I used for the sideways typography. This was the case, I will explain how they 
+affect the browsers I tested individually.
+
+#### Google Chrome
+- Mobile - All working as expected
+- Tablet - All working as expected
+- Desktop - All working as expected
+#### Opera 
+- Mobile - All working as expected
+- Tablet - All working as expected
+- Desktop - All working as expected
+#### Microsoft Edge 
+- Mobile - All working as expected
+- Tablet - All working as expected
+- Desktop - All working as expected
+#### Firefox
+- Mobile - Functionality and layout working as expected but the ```mix-blend-mode``` changes the text to blue [#105B7B] as opposed to the expected orange [#EFA484] when scrolling through sections with a white background. 
+- Tablet - Same result as mobile and desktop
+- Desktop - Same result as tablet and mobile.
+#### Safari
+- Mobile - The layout was affected in this browser as well as the colour change mentioned previously. Both headings were pushed over to one side of the browser.
+I struggled to find a solution for this one.
+- Tablet - Same result as mobile and desktop 
+- Desktop - Same result as mobile and tablet.
+---
+
+## Testing User Stories
+
+1. As a visitor, I want to learn about Sienna's background and services.
+    
+     i. After the landing page, the user is met with an about page outlining what Sienna does and what she has previously achieved.
+     
+2. As a visitor, I want to easily view her previous work.
+
+     i. The site is divided into sections and each section shows a different project that Sienna has been apart of.
+     
+     ii. The site is very easy to navigate, making it easy for the user to quickly view alot of previous work.
+
+3. As a visitor, I want to be able to easily message her through the site.
+4. As a visitor, I want to be able to receive her contact details and be able to enter mine.
+
+
+### Bug Fixes
+- Contact form was showing a 405 error when the form was submitted - [Bug Fix](https://github.com/ConnorGray97/Sienna-Website/commit/d1a56f20ba6ce0461a274833c7da3326c4eb63ea)
+
+- Right heading was overalapping contact me button on smaller viewport heights - [Bug Fix](https://github.com/ConnorGray97/Sienna-Website/commit/6963d63dc1a21ffbae9f58d48ef8e2b910a910a7)
+
+- Right heading padding was making nav link unresponsive - [Bug Fix](https://github.com/ConnorGray97/Sienna-Website/commit/dd40791da1618ddd8f0e14c4b8d1d3b3bfe269f5)
+
+- Lighthouse best practices reported security risk with the ```target="_blank"``` - [Bug Fix](https://github.com/ConnorGray97/Sienna-Website/commit/48cf25363305946c55ca8320b5e56767c3b2a5a6)
+
+### Known Bugs
+
+- On Safari browser the ```.left-heading``` and ```.right-heading``` are both pushed over to one side of the browser and the ```mix-blend-mode: exclusion;``` has a different colour than expected when passing through sections with a white 
+background
+
+
 # Deployment
+
+### GitHub Pages
+
+GitHub pages was used to deploy the site...
+
+1. Log in to GitHub and find the [Sienna-Website Repository](https://github.com/ConnorGray97/Sienna-Website)
+
+2. Inside the repository, click on the settings button inside the menu.
+
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+4. In the "source" section change the dropdwon from none to "master branch" and hit save.
+
+5. The page will automatically refresh.
+
+6. Scroll back down through the page to locate the now published site in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+  
+
+Forking a repository is making a copy that can have changes made to it without affecting the original copy, these are the steps:
+
+  
+1. In GitHub locate [Sienna-Website Repository](https://github.com/ConnorGray97/Sienna-Website)
+
+2. At the top of the Repository locate the "Fork" Button.
+
+3. There will now be a copy of the repository in your git GitHub account.
+
+
 
 
